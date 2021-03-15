@@ -1,0 +1,36 @@
+:root {
+  --color-primary: black;
+  --color-secondary: #4d4e53;
+  --color-secondary-light: #a9acaf;
+  --color-secondary-dark: #4d4e53;
+  --color-tertiary: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% 1rem = 10px
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-primary);
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: 20vw 1fr;
+}
