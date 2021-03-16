@@ -1,2 +1,25 @@
 .main-doc {
+  padding-top: 4rem;
+  
+  .main-section {
+    padding-left: 4rem ;
+    padding-right: 4rem ;
+
+    .section__header {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+      margin-left: 2rem;
+    }
+
+    li {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+      margin-left: 8rem;
+      padding-right: 3rem;
+    }
+  }
 }
