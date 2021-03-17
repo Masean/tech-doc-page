@@ -76,3 +76,13 @@ body {
       margin-bottom: 2rem;
       margin-left: 8rem;
       padding-right: 3rem; }
+    .main-doc .main-section .list-in-list {
+      margin-top: 2rem;
+      margin-left: -2rem; }
+    .main-doc .main-section .code {
+      font-size: 1.4rem;
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+      background-color: var(--color-tertiary);
+      padding: 1rem;
+      border-radius: .5rem; }

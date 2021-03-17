@@ -21,5 +21,19 @@
       margin-left: 8rem;
       padding-right: 3rem;
     }
+
+    .list-in-list {
+      margin-top: 2rem;
+      margin-left: -2rem;
+    }
+
+    .code {
+      font-size: 1.4rem;
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+      background-color: var(--color-tertiary);
+      padding: 1rem;
+      border-radius: .5rem;
+    }
   }
 }
