@@ -32,7 +32,9 @@ body {
   display: flex;
   flex-direction: column;
   border-right: 3px solid var(--color-secondary-light);
-  min-height: 100vh; }
+  height: 100vh;
+  position: sticky;
+  top: 0; }
   .navbar .nav__header {
     padding: 3rem;
     margin-bottom: 1rem; }
